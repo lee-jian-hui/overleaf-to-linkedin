@@ -1,0 +1,11 @@
+name: resume-linkedin
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pymupdf>=1.23.0
+      - requests>=2.31.0
+      - playwright>=1.43.0
